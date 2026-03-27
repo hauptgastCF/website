@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundCloud Playlist</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 50px 20px;
+            text-align: center; /* playlist centered */
+            background-color: #ffffff;
+                     background-image: url('Images/serenity.jpeg'); /* path to your image */
+    background-repeat: no-repeat;        /* don’t tile the image */
+    background-size: cover;              /* scale image to cover entire screen */
+    background-position: center;         /* center the image */
+    background-attachment: fixed;        /* make it fixed while scrolling */
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight:normal;
+            font-style:normal;
+            margin-bottom: 40px;
+        }
+
+        .playlist-container {
+            max-width: 800px;  /* optional: restrict width */
+            margin: 0 auto;    /* center container */
+        }
+
+        iframe {
+            width: 100%;       /* make the player fill container */
+            height: 300px;     /* height of player */
+            border: none;      /* remove border */
+        }
+                img {
+            border: 10px solid rgb(104, 104, 104);
+            padding: 0px;
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Selection of DJ Mixes</h1>
+
+     <p>Hauptgast is the name under which I have been djing since 2019. Here is what the press has to say: "Utrecht-based DJ and producer Hauptgast, who is Finn Pietrass, dwells somewhere in the space between experimental dance and fully-fledged hypnagogia. With the singular mission of revealing the pattern under the plough, the incredibly rare D-J-Hauptgast project has now resurfaced to share a deeply personal take on the history of music."</p>
+
+
+
+    <div class="playlist-container">
+        <iframe 
+            scrolling="no" 
+            frameborder="no" 
+            allow="autoplay" 
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1397569165&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+        <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif; font-weight: 100;">
+            <a href="https://soundcloud.com/hauptgast" title="Hauptgast" target="_blank" style="color: #cccccc; text-decoration: none;">Hauptgast</a> · 
+            <a href="https://soundcloud.com/hauptgast/sets/mixes" title="Mixes" target="_blank" style="color: #cccccc; text-decoration: none;">Mixes</a>
+        </div>
+    </div>
+
+<p>Some places I played at:</p>
+     <p>05.01 Salon des Amateurs, Düsseldorf DE</p>
+     <p>09.06 Best Kept Secret, Tilburg NL</p>
+    <p>31.05 Delirium @ Goethebunker, Essen DE</p>
+    <p>25.05 Kabul a Go Go, Utrecht NL</p>
+    <p>25.11 KIM @ Vogelfrei, Utrecht NL</p>
+    <p>14.10 Het Complot @ Ekko, Utrecht. NL</p>
+
+     <img src="Images/hauptgast.jpg" alt="Second image">
+
+</body>
+</html>
