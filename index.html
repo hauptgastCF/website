@@ -1,34 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Background + Main Image</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wichtige Deutungen</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 100px 10px 10px 10px;
+            text-align: center;
+            background-color: #ffffff;
+             background-image: url('Images/HGBanner.jpeg');
+    background-repeat: no-repeat;        
+    background-size: cover;              
+    background-position: center 132px;         
+    background-attachment: fixed;        
+} 
+    
 
-<style>
-body {
-    margin: 0;
-    height: 100vh;
-    background-image: url('Images/background.jpg'); 
-    background-size: cover;        
-    background-position: center;  
-    background-repeat: no-repeat;
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+             font-style: italic;
+        }
+
+
+        img {
+            border: 10px solid rgb(88, 88, 88);
+            padding: 0px;
+            width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        
+
+        .no-border {
+    border: none;
+}
+        p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+a {
+    color: rgb(88, 88, 88);
+    text-decoration: underline;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.notification-dot {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
     display: flex;
-    align-items: center;          
-    justify-content: center;      
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-.main-image {
-    width: 400px; 
-    height: auto;
-    border: 5px solid #555;
+.notification-dot:hover {
+    background-color: rgb(255, 0, 0);
 }
-</style>
+
+    </style>
 </head>
-
 <body>
+<a href="duchamp.html" class="notification-dot">4</a>
 
-<img src="Images/main-image.jpg" alt="Main Image" class="main-image">
+<img src="Images/finn-pietrass .png" alt="Profile picture" class="no-border">    
+                                                                                                                  
+            <p>
+    <a href="mediaarcheology.html">Academic Work (in Progress)</a>
+</p>
+    <img src="Images/JX8P-Medial-Massagiert.jpeg" alt="Second image">
+
+            <p>
+    <a href="hauptgastarchive.html">Hauptgast</a><br>
+</p>
+ <img src="Images/Hauptgast-main.jpg" alt="Second image">
+
+            <p>
+    <a href="cutterfulkarchive.html">Cutterfulk</a><br>
+</p>
+ <img src="Images/Cutterfulk-main.png" alt="Second image">
+
+             <p>
+    <a href="thehauntologyarchives.html">The Hauntology Archives</a><br>
+</p>
+ <img src="Images/thehauntologyarchives.png" alt="Second image">
+
+    <a href="cvgate.html">CV/gate</a><br>
+</p>
+ <img src="Images/cvgate.jpg" alt="Second image">
 
 </body>
 </html>
